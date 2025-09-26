@@ -3,14 +3,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: var(--bg-color, #fff);
-  color: var(--text-color, #000);
+  background: var(--bg-color, #dad8ea);
+  color: var(--text-color, #2b2837);
 }
 
 /* Menu fixo no topo */
 header {
-  background: #333;
-  color: #fff;
+  background: #2b2837;
+  color: #4dfead;
   position: fixed;
   width: 100%;
   top: 0;
@@ -32,14 +32,14 @@ header {
 }
 
 .menu ul li a {
-  color: white;
+  color: #4dfead;
   text-decoration: none;
 }
 
 .menu button {
   background: none;
   border: none;
-  color: white;
+  color: #4dfead;
   cursor: pointer;
   font-size: 1.2rem;
 }
@@ -83,7 +83,7 @@ form button:hover {
   background: none;
   border: none;
   font-size: 24px;
-  color: white;
+  color: #dad8ea;
   cursor: pointer;
 }
 
@@ -107,7 +107,7 @@ form button:hover {
   .menu ul {
     display: none;
     flex-direction: column;
-    background: #333;
+    background: #4dfead;
     position: absolute;
     top: 60px;
     right: 0;
@@ -127,7 +127,7 @@ form button:hover {
 
 /* Tema escuro */
 .dark-theme {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
+  --bg-color: #13111b;
+  --text-color: #dad8ea;
   --shadow-color: #a3a3a344;
 }
